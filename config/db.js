@@ -1,4 +1,5 @@
-import mangoose from "mangoose";
+import mongoose from 'mongoose';
+
 
 let cached = global.mangoose
 if (!cached) {
